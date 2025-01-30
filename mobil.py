@@ -285,10 +285,10 @@ def venom():
         os.system("cd venom && sh venom.sh")
     elif choiceshell in no:
         os.system('clear'); info()     
-def commix():
-    print ("Automated All-in-One OS Command Injection and Exploitation Tool.")
-    print ("usage : python commix.py --help")
-    choicecmx = raw_input("Continue: y/n :")
+#def commix():
+ #   print ("Automated All-in-One OS Command Injection and Exploitation Tool.")
+  #  print ("usage : python commix.py --help")
+   # choicecmx = raw_input("Continue: y/n :")
     if choicecmx in yes:
         os.system("git clone https://github.com/stasinopoulos/commix.git commix")
         os.system("cd commix")
